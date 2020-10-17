@@ -1,3 +1,7 @@
+# Run
+1. run `http-server`
+1. go to http://127.0.0.1:8080
+
 # WebGL 3D Painter
 
 This is a 3D model painter develop for WebGL using HTML and Javascript. The idea is that the user can load and paint and object both in 3D and in UV coordinates using mouse clicks. It allows the loading of .obj files with texture coordinates and the loading of texture images. Obj files must supply normal and texture coordinates for the program to work properly

@@ -1,0 +1,30 @@
+{
+  "name": "WebGL3DPainter",
+  "version": "1.0.0",
+  "description": "This is a 3D model painter develop for WebGL using HTML and Javascript. The idea is that the user can load and paint and object both in 3D and in UV coordinates using mouse clicks. It allows the loading of .obj files with texture coordinates and the loading of texture images. Obj files must supply normal and texture coordinates for the program to work properly",
+  "main": "webgl.js",
+  "scripts": {
+    "eslintfix": "npx eslint webgl.js --fix; exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwalk33r/WebGL3DPainter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwalk33r/WebGL3DPainter/issues"
+  },
+  "homepage": "https://github.com/ashwalk33r/WebGL3DPainter#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "http-server": "^0.12.3"
+  }
+}
