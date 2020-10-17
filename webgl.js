@@ -81,6 +81,15 @@ function clickToPaint (xx, yy) {
 // eslint-disable-next-line no-unused-vars
 function start () {
   canvas = document.getElementById('glcanvas');
+
+    setCanvasSize();
+    window.onresize = setCanvasSize;
+
+    function setCanvasSize () {
+        canvas.width  = document.documentElement.clientWidth;
+        canvas.height = document.documentElement.clientHeight;
+    }
+
   canvas.addEventListener('webglcontextlost', (event) => {
     event.preventDefault();
   }, false);
